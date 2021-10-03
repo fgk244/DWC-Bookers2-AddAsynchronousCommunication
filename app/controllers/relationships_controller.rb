@@ -14,12 +14,12 @@ class RelationshipsController < ApplicationController
 
   def followings
     @users = @user.followings
-    render 'users/index'
+
   end
 
   def followers
     @users = @user.followers
-    render 'users/index'
+
   end
 
 
